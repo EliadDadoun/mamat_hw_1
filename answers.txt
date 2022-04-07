@@ -1,0 +1,8 @@
+a.going article by article and searching for the words would take a long time,about an hour.
+b.Writing code could save hours of manual work, also keeping the solution generic can help expand the solution quickly, for example if we wanted to also check mako, it would be very quick.
+this idea could be used to implement search engines, to check for rising popularity of politicians/ actors and many other ideas.
+c.In order to repeat the action once in hour we could write a script that would run in the background and check the os clock, once in an hour it will run the code again - some options for that are:
+watch -3600 x scrap_news
+while true; do ls; sleep 3600; done
+
+c.in order to avoid checking the same articles, we can save the links in a database of somes sort, even a text file, and check for uniqeness both in the current pulled articles and in the database/
